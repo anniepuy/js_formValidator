@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-    background-color: white;
+    background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
     width: 400px;
@@ -41,6 +41,12 @@ h2 {
 }
 
 .form-control {
+    color: #777;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control label {
     color: #777;
     display: block;
     margin-bottom: 5px;
@@ -78,7 +84,6 @@ h2 {
 
 .form-control.error small{
     visibility: visible;
-
 }
 
 .form button{
